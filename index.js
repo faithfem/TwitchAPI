@@ -7,7 +7,9 @@ $(document).ready(function()){
             else{
                   $("#fccStatus").html("FCC");
             }
-       
+       if{
+             $(fccstatus);
+       }
    }); 
    
    var followerURL = "https://api.twitch.tv/kraken/users/freecodecamp/follows/channels/";
